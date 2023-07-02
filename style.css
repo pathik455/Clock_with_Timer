@@ -1,0 +1,29 @@
+div{
+    padding: 20px 20px;
+    width: 20%;
+    border: 2px solid black;
+}
+
+.button{
+    background-color: rgb(79, 0, 225);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    text-shadow: whitesmoke;
+    font-weight: bold;
+    width: 49%;
+}
+
+#time{
+    text-align: center;
+}
+
+#put-time{
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border-style: ridge;
+    border-radius: 10px;
+}
