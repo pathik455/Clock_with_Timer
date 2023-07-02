@@ -12,7 +12,7 @@ let interval = setInterval(showTime, 100);
 
 button.addEventListener("click", () =>{
     let insertedTime = document.getElementById("put-time").value;
-    setTimeout(function( ) { clearInterval( interval ); }, insertedTime*1000);
+    setTimeout(function( ) { clearInterval( interval ); alert("alarm")}, insertedTime*1000);
 })
 
 button2.addEventListener("click", () =>{
